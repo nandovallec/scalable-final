@@ -4,10 +4,9 @@ import json
 import sys
 
 def get_playlist_track_uris(playlist_id):
-    client_id = '3b8cc27251bf4dfda64a3f3426f1bc2e'
-    client_secret = '166aeccbd32c4b87baa8c96412b21e75'
+    client_id = ''
+    client_secret = ''
 
-    # client_credentials_bytes = (client_id + ':' + client_secret).encode('ascii')
     access_token = get_access_token(client_id, client_secret)
 
     playlist_data = get_playlist_data(access_token, playlist_id)
