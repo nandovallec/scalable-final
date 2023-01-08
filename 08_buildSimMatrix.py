@@ -45,6 +45,7 @@ def main():
     print("Load Rating Matrix")
     
     pickle_path = 'data/giantMatrix_new.pickle'
+    # pickle_path = 'data/giantMatrix_truth_new.pickle'
     if mode == 1:
         pickle_path = 'data/giantMatrix_small.pickle'
 
@@ -78,22 +79,22 @@ def main():
     with open("data/"+out_filename, 'wb') as f:
         pickle.dump(ps_sim_playlist, f,protocol=4)  
         
-    # Get tid list
-    tid_list = list(df_sp_train.index)
-    num_tid = len(tid_list)
-    dict_index = {k:v for k,v in zip(tid_list,range(0,num_tid))}
-    tid_list_test = list(df_sp_test.index)
-    index_tid_list_test = [dict_index.get(i) for i in tid_list_test]
-    
-    print("Build cosine similarity songs")
-    ps_sim_song = cosine_similarities_song(index_tid_list_test,ps_matrix_col)    
-    
-    print("Save similarity matrix song")
-
-    out_filename = "cosineSimMatrix_song.pickle"
-    
-    with open("data/"+out_filename, 'wb') as f:
-        pickle.dump(ps_sim_song, f,protocol = 4)      
+    # # Get tid list
+    # tid_list = list(df_sp_train.index)
+    # num_tid = len(tid_list)
+    # dict_index = {k:v for k,v in zip(tid_list,range(0,num_tid))}
+    # tid_list_test = list(df_sp_test.index)
+    # index_tid_list_test = [dict_index.get(i) for i in tid_list_test]
+    #
+    # print("Build cosine similarity songs")
+    # ps_sim_song = cosine_similarities_song(index_tid_list_test,ps_matrix_col)
+    #
+    # print("Save similarity matrix song")
+    #
+    # out_filename = "cosineSimMatrix_song.pickle"
+    #
+    # with open("data/"+out_filename, 'wb') as f:
+    #     pickle.dump(ps_sim_song, f,protocol = 4)
     
 if __name__ =="__main__":
     parser = argparse.ArgumentParser()

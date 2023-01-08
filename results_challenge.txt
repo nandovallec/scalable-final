@@ -1,0 +1,4 @@
+Load Playlist-Song matrix
+Load Similarity Matrix
+{'r-precision': 0.7607746294573476, 'ndcg': 0.768559893750165, 'song clicks': 0.0}
+Time taken = 10.59623

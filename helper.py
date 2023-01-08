@@ -342,8 +342,10 @@ class my_evaluation:
             predictions:
             truth:
         '''
-        predictions = list(predictions[:n_tracks])
         truth = list(truth)
+        n_tracks = min(n_tracks,len(truth))
+        predictions = list(predictions[:n_tracks])
+
     
         # Computes an ordered vector of 1.0 and 0.0
         

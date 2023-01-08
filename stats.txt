@@ -1,0 +1,164 @@
+
+number of playlists 100000
+number of tracks 6677800
+number of unique tracks 681805
+number of unique albums 271413
+number of unique artists 110063
+number of unique titles 29199
+number of playlists with descriptions 1837
+number of unique normalized titles 12816
+avg playlist length 66.778
+
+top playlist titles
+   2531 country
+   1769 chill
+    979 workout
+    856 rap
+    850 christmas
+    848 oldies
+    688 rock
+    614 party
+    524 throwback
+    490 worship
+    468 jams
+    468 summer
+    447 feels
+    446 new
+    409 disney
+    402 throwbacks
+    378 lit
+    374 music
+    364 sleep
+    347 edm
+
+top tracks
+   4441 HUMBLE. by Kendrick Lamar
+   4240 One Dance by Drake
+   4145 Closer by The Chainsmokers
+   4073 Broccoli (feat. Lil Yachty) by DRAM
+   3936 Congratulations by Post Malone
+   3523 Caroline by Aminé
+   3476 iSpy (feat. Lil Yachty) by KYLE
+   3473 Location by Khalid
+   3456 XO TOUR Llif3 by Lil Uzi Vert
+   3385 Bad and Boujee (feat. Lil Uzi Vert) by Migos
+   3221 No Role Modelz by J. Cole
+   3202 Ignition - Remix by R. Kelly
+   3190 Bounce Back by Big Sean
+   3136 Mask Off by Future
+   3111 No Problem (feat. Lil Wayne & 2 Chainz) by Chance The Rapper
+   3069 goosebumps by Travis Scott
+   3067 Roses by The Chainsmokers
+   3054 Jumpman by Drake
+   3036 Shape of You by Ed Sheeran
+   3022 I'm the One by DJ Khaled
+
+top artists
+  82460 Drake
+  40856 Kanye West
+  34555 Kendrick Lamar
+  33348 Rihanna
+  31147 The Weeknd
+  28438 Eminem
+  27467 Ed Sheeran
+  25027 Future
+  24076 J. Cole
+  23625 Justin Bieber
+  23296 Beyoncé
+  22191 The Chainsmokers
+  20804 Chris Brown
+  20595 Luke Bryan
+  19848 Calvin Harris
+  19714 Twenty One Pilots
+  19556 Lil Uzi Vert
+  19179 Post Malone
+  19060 Florida Georgia Line
+  18589 Migos
+
+numedits histogram
+   9200 2
+   8208 3
+   7103 4
+   6201 5
+   5083 6
+   4559 7
+   4015 8
+   3683 9
+   3279 10
+   2954 11
+   2651 12
+   2523 13
+   2352 14
+   2129 15
+   1925 16
+   1802 17
+   1728 18
+   1510 19
+   1416 20
+   1394 21
+
+last modified histogram
+   1944 2017-10-31
+   1580 2017-10-30
+   1183 2017-10-29
+   1126 2017-10-27
+   1029 2017-10-28
+    962 2017-10-26
+    951 2017-10-25
+    882 2017-10-24
+    780 2017-10-23
+    723 2017-10-20
+    612 2017-10-22
+    599 2017-10-18
+    588 2017-10-21
+    574 2017-10-19
+    568 2017-10-17
+    531 2017-10-16
+    514 2017-10-13
+    468 2017-10-14
+    466 2017-10-12
+    453 2017-10-15
+
+playlist length histogram
+   1455 20
+   1396 22
+   1388 21
+   1384 15
+   1355 16
+   1354 17
+   1354 30
+   1342 14
+   1330 18
+   1329 19
+   1285 23
+   1277 24
+   1273 29
+   1268 25
+   1263 28
+   1253 27
+   1202 26
+   1179 12
+   1178 13
+   1177 32
+
+num followers histogram
+  75350 1
+  15012 2
+   4736 3
+   1994 4
+    987 5
+    544 6
+    309 7
+    226 8
+    159 9
+    104 10
+     77 11
+     52 13
+     43 12
+     34 16
+     31 15
+     28 14
+     18 17
+     13 18
+     13 27
+     12 21
